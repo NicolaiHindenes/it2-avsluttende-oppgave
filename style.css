@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.board {
+  display: inline-block;
+  margin: 20px;
+}
+
+.square {
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightgray;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: gray;
+  color: #333;
+}
+
+.revealed {
+  background-color: lightgray;
+  color: black;
+}
+
+.mine {
+  background-color: red;
+}
+
+#gameBoard {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.restartButton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 20px;
+}
+
+.flagged {
+  background-color: yellow;
+  color: red;
+  text-align: center;
+  vertical-align: middle;
+}
